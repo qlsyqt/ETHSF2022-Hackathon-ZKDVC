@@ -1,0 +1,58 @@
+[server]
+address="0.0.0.0"
+port=8070
+
+[database]
+#    [database.mysql]
+#    server = "127.0.0.1"
+#    db = "hackthonw"
+#    port = 3306
+#    dbuser = "root"
+#    dbpwd = "12345678"
+
+    [database.mysql]
+    server = "tidb.uunmqwe9i4u.clusters.tidb-cloud.com"
+    db = "hackthonw" # should be polygonidw
+    port = 4000
+    dbuser = "root"
+    dbpwd = "WMmpmHawul"
+
+    [database.pg]
+    server = "127.0.0.1"
+    db = "hackthonw"
+    port = 5432
+    dbuser = "centos"
+    dbpwd = "q5c2lbobzl"
+
+#    [database.pg]
+#    server = "127.0.0.1"
+#    db = "hackthonw"
+#    port = 5432
+#    dbuser = "root"
+#    dbpwd = "12345678"
+
+[polygonId]
+privateKey="0x76806b8801c1ccbc4cfcc18c595b03a4429af84af82e1f13b6c9eb13518d9213"
+authRevocationNonce=12345
+
+[polygonWallet]
+#privateKey="0xcebf908866cf819341593256f792cd0972ce31aee2ac3af60988a7c6759cb516"
+mainPrivateKey="0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80" #it has nfts!
+auxPrivateKey="0x8166f546bab6da521a8369cab06c5d2b9e46670292d85c875ee9ec20e84ffb61"
+
+
+[blockchain]
+network="http://127.0.0.1:8545"
+stateContract="0x5FbDB2315678afecb367f032d93F642f64180aa3"
+badgeContract="0x5FC8d32690cc91D4c39d9d3abcBD16989F875707"
+
+
+[zkp]
+    [zkp.auth]
+        wasmPath="zk/auth.wasm"
+        zkeyPath="zk/auth.zkey"
+        vkeyPath="zk/auth.vkey"
+    [zkp.stateTransition]
+        wasmPath="zk/stateTransition.wasm"
+        zkeyPath="zk/stateTransition.zkey"
+        vkeyPath="zk/stateTransition.vkey"
