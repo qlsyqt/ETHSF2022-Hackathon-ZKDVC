@@ -1,0 +1,59 @@
+title = "TOML Example"
+
+[database]
+#    [database.mysql]
+#    server = "127.0.0.1"
+#    db = "hackthon"
+#    port = 3306
+#    dbuser = "root"
+#    dbpwd = "12345678"
+
+    [database.mysql]
+    server = "tidb.uunmqwe9i4u.clusters.tidb-cloud.com"
+    db = "polygonid" # should be polygonidw
+    port = 4000
+    dbuser = "root"
+    dbpwd = "WMmpmHawul"
+
+    [database.pg]
+    server = "127.0.0.1"
+    db = "hackthons"
+    port = 5432
+    dbuser = "centos"
+    dbpwd = "q5c2lbobzl"
+
+
+#    [database.pg]
+#    server = "127.0.0.1"
+#    db = "hackthon"
+#    port = 5432
+#    dbuser = "root"
+#    dbpwd = "12345678"
+
+[server]
+address = "0.0.0.0"
+port = 8080
+
+[relayer]
+bjjPrivateKey = ""
+bjjPublicKey = ""
+
+[dvc]
+host="https://credentials.knn3.xyz"
+readTimeout = 60
+
+[blockchain]
+rpc = "http://localhost:8545"
+stateContract = "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+privateKey = "0x5de4111afa1a4b94908f83103eb1f1706367c2e68ca870fc3fb9a804cdab365a"
+#privateKey = "0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80"
+
+[jobs]
+    [jobs.autoRevoke]
+    cron = "*/30 * * * * *"
+
+[schema]
+defaultHash = "abcdefabcdefabcdefabcdefabcdefab"
+
+[authentication]
+callback="http://127.0.0.1:8080/api/v1/identity/callback"
