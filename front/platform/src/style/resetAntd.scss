@@ -1,0 +1,194 @@
+.ant-btn-primary {
+	background: #fc3200;
+	border-color: #fc3200;
+
+	&:hover {
+		background: #fc3200;
+		border-color: #fc3200;
+	}
+
+	&:focus {
+		background: #fc3200;
+		border-color: #fc3200;
+	}
+}
+
+.ant-table {
+	background: #000;
+	color: #fff;
+	border-collapse: separate;
+	border-spacing: 5px 10px;
+}
+
+.ant-table thead>tr>th {
+	background: rgb(26, 26, 26);
+	color: #fff;
+	border: none;
+}
+
+.ant-table tbody>tr>td {
+	border: none;
+}
+
+.ant-table tbody>tr.ant-table-row:hover>td {
+	background: rgb(57, 55, 56);
+	color: #fff;
+}
+
+.ant-table tbody .ant-table-cell .ant-table-expanded-row thead>tr>th {
+	background: rgb(26, 26, 26);
+	color: #fff;
+	border: none;
+}
+
+tr.ant-table-expanded-row>td,
+tr.ant-table-expanded-row:hover>td {
+	background: #000;
+}
+
+.ant-table-row-expand-icon {
+	background: rgb(26, 26, 26);
+	border: none;
+	height: 40px;
+	width: 40px;
+}
+
+.ant-table-row-expand-icon::before {
+	top: 19px;
+	right: 10px;
+	left: 10px;
+	height: 2px;
+}
+
+.ant-table-row-expand-icon::after {
+	top: 10px;
+	bottom: 10px;
+	left: 19px;
+	width: 2px;
+}
+
+.ant-table-expanded-row table {
+	margin-left: 5%;
+    width: 95%;
+}
+
+.ant-table-expanded-row tbody tr{
+	cursor: pointer;
+}
+
+.ant-input {
+	background: #1a1a1a;
+	border: none;
+	height: 60px;
+	line-height: 60px;
+	color: #fff;
+}
+
+.ant-select-dropdown {
+	background: #1a1a1a;
+}
+
+.ant-input-disabled{
+	background: #1a1a1a !important;
+    color: #fff !important;
+}
+
+.ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+	background: #1a1a1a;
+	border: none;
+	height: 60px;
+	line-height: 60px;
+	color: #fff;
+}
+
+.ant-select-single .ant-select-selector .ant-select-selection-item {
+	background: #1a1a1a;
+	border: none;
+	height: 60px;
+	line-height: 60px;
+	color: #fff;
+}
+
+.ant-radio-wrapper {
+	color: #fff;
+}
+
+.ant-checkbox-wrapper {
+	color: #fff;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+	background: #fc3200;
+
+	&:hover {
+		border-color: none;
+	}
+}
+
+.ant-select-arrow {
+	user-select: none;
+	color: #fff;
+	font-size: 15px;
+}
+
+.ant-select-dropdown .ant-select-item {
+	background: #1a1a1a;
+	color: #fff;
+
+	&:hover {
+		background: rgb(57, 55, 56);
+	}
+
+	&:focus {
+		border: none;
+	}
+}
+
+.ant-drawer-header {
+	background: #1a1a1a;
+	color: #fff;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+	.ant-drawer-title {
+		color: #fff;
+	}
+
+	.ant-drawer-close {
+		color: #fff;
+	}
+}
+
+.ant-drawer-body {
+	background: #1a1a1a;
+}
+
+.copyIcon {
+	width: 12px;
+	height: 12px;
+	cursor: pointer;
+	margin-left: 4px;
+}
+
+.ant-checkbox-disabled + span{
+	color: #fff;
+}
+
+.ant-table-tbody > tr.ant-table-placeholder:hover > td{
+	background: #000;
+}
+
+.ant-empty-description{
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.ant-picker{
+	background: #1a1a1a;
+	border-color: rgba(255, 255, 255, 0.1);
+}
+.ant-picker-clear, .ant-picker-suffix{
+	display: none;
+}
+
+.ant-picker-input input{
+	color: rgba(255, 255, 255, 0.7);
+}

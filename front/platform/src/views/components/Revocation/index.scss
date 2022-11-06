@@ -1,0 +1,112 @@
+.revocation-con {
+  height: 100%;
+  width: 100%;
+  position: relative;
+
+  .revocation-top {
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+    .revocation-des {
+      float: left;
+      margin-left: 100px;
+      margin-top: 5px;
+
+      >div {
+        float: left;
+      }
+
+      >div:nth-child(1) {
+        font-size: 30px;
+        color: #fff;
+      }
+
+      >div:nth-child(2) {
+        font-size: 12px;
+        color: rgba(255, 255, 255, .6);
+        margin-left: 20px;
+        height: 40px;
+        line-height: 40px;
+      }
+    }
+
+    .revocation-return {
+      cursor: pointer;
+      height: 50px;
+      width: 50px;
+      line-height: 50px;
+      text-align: center;
+      border-radius: 5px;
+      background: rgb(26, 26, 26);
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+  }
+}
+
+.revocation-form {
+  height: calc(100% - 100px);
+  border: 1px solid rgba(0, 0, 0, .06);
+  padding: 20px;
+  width: 100%;
+  padding-top: 0;
+  overflow: auto;
+
+  &-title {
+    height: 80px;
+    line-height: 80px;
+    font-size: 24px;
+  }
+
+  .border-title {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .revocation-base-info {
+    display: flex;
+
+    >div {
+      flex: 1;
+
+    }
+
+    >div:nth-child(2) {
+      text-align: right;
+    }
+  }
+
+  .info-common-style {
+    margin-bottom: 14px;
+
+    >span:nth-child(1) {
+      color: rgba(255, 255, 255, .9);
+      margin-right: 10px;
+    }
+
+    >span:nth-child(2) {
+      color: rgba(255, 255, 255, .8);
+      font-weight: 600;
+    }
+  }
+
+  .revocation-claims-item {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 20px;
+  }
+  .revocation-trigger{
+    >div:nth-child(1){
+      margin-bottom: 10px;
+    }
+    margin-bottom: 10px;
+  }
+  .button-group {
+    overflow: hidden;
+    margin: 20px;
+    width: auto;
+    float: right;
+  }
+}

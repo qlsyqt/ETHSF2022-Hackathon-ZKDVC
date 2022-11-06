@@ -1,0 +1,105 @@
+.list-page {
+  height: 100%;
+  width: 100%;
+}
+
+.list-title {
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.list-des {
+  margin-bottom: 4px;
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding-bottom: 40px;
+
+  >div {
+    float: left;
+  }
+
+  >div:nth-child(2) {
+    width: 100px;
+    font-size: 12px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    border-radius: 50px;
+    height: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    margin-left: 20px;
+    margin-top: 13px;
+  }
+}
+
+.list-btn {
+  position: absolute;
+  right: 60px;
+  top: 60px;
+}
+
+.list-tabs {
+  margin-top: 60px;
+  overflow: hidden;
+
+  >div {
+    float: left;
+    padding: 8px 10px;
+    cursor: pointer;
+
+    >span {
+      font-weight: 600;
+    }
+  }
+
+  >.active {
+    color: rgb(131, 83, 226);
+    border-bottom: 3px solid rgb(131, 83, 226);
+  }
+}
+
+.list-table {
+  margin-top: 20px;
+  width: 100%;
+  height: calc(100% - 100px);
+  overflow: auto;
+}
+
+.tag {
+  padding: 3px;
+  text-align: center;
+  border-radius: 50px;
+  width: 140px;
+}
+
+.revocation {
+  display: block;
+  background: #000;
+  width: 140px;
+  padding: 3px 0px;
+  text-align: center;
+  border-radius: 4px;
+  color: #fc3200;
+  cursor: pointer;
+}
+
+.templateName {
+  cursor: pointer;
+}
+
+.drawer-des {
+  >div {
+    margin-bottom: 10px;
+
+    >span:nth-child(1) {
+      font-weight: 600;
+      margin-right: 10px;
+    }
+
+    >span:nth-child(2) {
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.3);
+    }
+  }
+}
